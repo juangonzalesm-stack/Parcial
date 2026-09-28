@@ -1,0 +1,96 @@
+:root {
+
+    --color_fondo_pagina: #FFFF;
+}
+
+body {
+
+    background-color: var(--color_fondo_pagina);
+}
+
+.contenedorFlex {
+
+    display: flex;
+}
+
+.divEncabezado {
+
+    justify-items: center;
+    height: 20%;
+    width: 30%;
+    color: #141414;
+    gap:10px
+
+
+
+}
+
+.img1 {
+
+    height: 300px;
+    width: 100%;
+}
+
+.arriba {
+
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover
+}
+
+.letras {
+
+    position:relative;
+    color:white;
+    text-align: center;
+    gap: 30px;
+}
+
+.textoCentrado {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+    text-align: center;
+    gap: 10px;
+}
+
+.imagenes1 {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: aqua;
+    gap:10px;
+     justify-content:right;
+}
+
+.imagenes2 {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: rgb(255, 145, 0);
+    gap:10px;
+    justify-content:right;
+}
+
+.imagenes3 {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: rgb(234, 0, 255);
+    gap: 10px;
+    justify-content:right;
+}
+
+
+
+
